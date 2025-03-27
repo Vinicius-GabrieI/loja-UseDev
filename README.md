@@ -1,6 +1,3 @@
-
-![CSS Grid](https://imgur.com/KfurviO.png)
-
 # CSS Grid
 
 Página inicial da loja fictícia UseDev. Feito em conjunto com o curso da Alura CSS: construindo layouts responsivos com grid
