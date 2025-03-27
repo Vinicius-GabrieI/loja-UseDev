@@ -1,0 +1,70 @@
+.categories__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "clothes clothes decorations"
+    "mugs acessories acessories";
+    gap: 24px;
+    list-style-type: none;
+}
+
+.categories__item--clothes {
+    grid-area: clothes;
+}
+
+.categories__item--decorations {
+    grid-area: decorations;
+}
+
+.categories__item--mugs {
+    grid-area: mugs;
+}
+
+.categories__item--acessories {
+    grid-area: acessories;
+}
+
+.categories__container img {
+    height: 331px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.categories__container {
+    background-color: var(--cor-links);
+    text-align: center;
+}
+
+.categories__item {
+    box-shadow: 0px 4px 24px 0px #7B7B7B26;
+}
+
+.categories {
+    padding: 80px 12.5%;
+}
+
+.categories__title {
+    font-size: 32px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-texto-principal);
+    margin-bottom: 40px;
+}
+
+.categories__text {
+    font-size: 25px;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto-secundario);
+    margin-bottom: 40px;
+}
+
+.categories__item-title {
+    font-size: 31px;
+    font-weight: 700;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto-principal);
+    padding: 16px 0;
+    text-align: center;
+}
