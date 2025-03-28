@@ -1,0 +1,54 @@
+.newsletter {
+    margin-top: 144px;
+    padding: 40px 11vw;
+    background-color: var(--cor-destaque-secundario);
+    text-align: center;
+}
+
+.newsletter__title {
+    font-family: var(--fonte-titulo);
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.newsletter__text {
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 24px 0px 32px 0px;
+}
+
+.newsletter__form {
+    width: 66%;
+    justify-self: center;
+}
+
+.newsletter__input {
+    width: 65%;
+    height: 56px;
+    border-radius: 32px;
+    border: 2px solid var(--cor-links);
+    padding: 0px 24px;
+    background-color: transparent;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter__input::placeholder {
+    color: var(--cor-links);
+}
+
+.newsletter__button {
+    width: 145px;
+    height: 56px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--cor-fundo-botao);
+    margin-left: 1rem;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor-de-fundo);
+    cursor: pointer;
+}
